@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "GoldieDreambox";
+
+  src: url("./fonts/GoldieDreambox-Yzyp2.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/GoldieDreambox-Yzyp2.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/GoldieDreambox-Yzyp2.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+	background-color: #99bbff;
+	font: Consolas;
+	font-size: 1em;
+}
+
+h1 {
+	font: "GoldieDreambox";
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+p{
+	color:white;
+}
+
+a {
+	cursor: pointer;
+}
+
+.notouch {
+	pointer-events: none;
+}
